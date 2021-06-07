@@ -1,0 +1,61 @@
+.img-wrapper img{
+    margin-left: 20px;
+    margin: 0;
+    width: 60%;
+    height: 250px;
+    box-sizing: border-box;
+}
+.team-details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+    background-color: #E0E1F1;
+    margin-bottom: 30px;
+}
+.team-details h2{
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 40px;
+    border-bottom: 1px solid;
+}
+.team-details p{
+    margin: 0;
+    padding-top: 10px;
+    font-size: 20px
+}
+.details-wrapper{
+    width:100%;
+}
+.player-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: #E0E1F1;
+    margin: 10px;
+}
+.player-card img{
+    height: 200px;
+}
+.player-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.card-container {
+    padding: 3px 8px;
+}
+.card-container h3{
+    padding: 8px;
+    margin: 0;
+    font-size: 20px;
+}
+.card-container p{
+    margin: 0;
+    font-size: 14px;
+}
+.player-card :hover{
+    cursor: pointer;
+}

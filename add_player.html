@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL - New Player</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./add_team.css">
+    
+</head>
+<body>
+    <div id="top-bar">
+        <h1 id = "main-heading">Indian Premier League</h1>
+        <div>
+            <a id="add-team" href="index.html">Home</a>
+            <a id="add-team" href="./add_team.html">Add Team</a>
+            <a id="add-team" href="./add_player.html">Add Player</a>
+        </div>
+        
+    </div>
+   <div id="container">
+       <div class="form-wrapper">
+        <h2>Add New Player</h2>
+        <form id="addPlayer-form">
+            <div class="row">
+              <div class="col-25">
+                <label for="Player Name">Player Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="playername" name="playername" placeholder="Player Name">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="whichteam">Belongs to which team</label>
+              </div>
+              <div class="col-75">
+                <select id="whichteam" name="whichteam">
+                  <option value="MI">MI</option>
+                  <option value="RCB">RCB</option>
+                  <option value="KKR">KKR</option>
+                  <option value="SRH">SRH</option>
+                  <option value="KXIP">KXIP</option>
+                  <option value="DC">DC</option>
+                  <option value="CSK">CSK</option>
+                  <option value="RR">RR</option> 
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="price">Price</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="price" name="price" placeholder="Price">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="whichteam">Status</label>
+              </div>
+              <div class="col-75">
+                <select id="status" name="status">
+                  <option value="Playing">Playing</option>
+                  <option value="onBench">On Bench</option>
+                </select>
+              </div>
+            </div><div class="row">
+                <div class="col-25">
+                  <label for="player-image ">Player Image(URL)</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="player-image" name="player-image" placeholder="Player Image URL">
+                  </div>
+              </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="description">Description</label>
+              </div>
+              <div class="col-75">
+                  <input type="text" id="description" name="description" placeholder="Description">
+                </div>
+            </div>
+            <div class="row">
+              <input type="submit" id="add-player" value="Add Player" onclick='myFunction()'>
+            </div>
+          </form>
+       </div>
+        
+      </div>
+    <script src="./add_player.js"></script>
+</body>
+</html>
